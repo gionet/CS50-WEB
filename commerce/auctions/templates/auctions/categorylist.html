@@ -1,0 +1,13 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    <h2 class="text-center">Category</h2>
+    
+    {% for category_code, category_name in categories %}
+    <a href="{% url 'category' category_itemlist=category_name %}" class="list-group-item-action">
+    <div class="row justify-content-start">
+        <button type="button" class="btn btn btn-light btn-lg btn-block" name="{{ category_code }}">{{ category_name }}</button>
+    </div>
+    {% endfor %}
+
+{% endblock %}

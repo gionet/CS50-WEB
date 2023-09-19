@@ -1,0 +1,33 @@
+body {
+    background-image: url('https://img.freepik.com/premium-photo/green-matrix-background-binary-numbers-matrix-computer-data-glowing-green-blue-one-zero-numbers-background_295890-2891.jpg');
+}
+
+.content {
+    background-image: url('https://t3.ftcdn.net/jpg/01/43/81/86/360_F_143818662_0wN9AmHmZaWIMI7xXAb7Op86neIL7Jqx.jpg');
+}
+
+.left-padding {
+    padding-left: 50px;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.profile-font {
+    font-size: 20px; 
+}
+
+.profile-name {
+    font-size: 20px;
+}
+
+.profile-number {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 38, 255);
+}
+/* .like-button {
+    box-shadow: none !important;
+} */

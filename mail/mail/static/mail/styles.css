@@ -1,0 +1,26 @@
+textarea {
+    min-height: 400px;
+}
+
+.read {
+    background-color: rgb(228, 228, 228);
+}
+  
+.unread {
+    background-color: white;
+
+}
+
+.buttons {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.email-content {
+    margin-top: 10px;
+}
+
+.email-body {
+    white-space: pre;
+}
+
