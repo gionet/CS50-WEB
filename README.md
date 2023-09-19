@@ -16,7 +16,16 @@ These solutions are intended to be shared within the community as a point of ref
 **Database:** SQLite3  
 
 **Project 0: Search**  
+https://www.youtube.com/watch?v=T3mt7djhj3g&t=151s
+
 **Project 1: Wiki**  
+https://www.youtube.com/watch?v=dGhRkqqgTRU
+
 **Project 2: Commerce**  
+https://www.youtube.com/watch?v=0I179bqMX30&t=81s
+
 **Project 3: Mail**  
-**Project 4: Network**
+https://www.youtube.com/watch?v=lTbJ8g-H-fI&t=16s
+
+**Project 4: Network**  
+https://www.youtube.com/watch?v=GhS0Hhk5tqo&t=119s
