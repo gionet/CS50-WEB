@@ -6,7 +6,7 @@ For more info: [CS50’s Web Programming with Python and JavaScript](https://cs5
 
 ## Disclaimer
 
-It is important to address the topic of <a href="https://cs50.harvard.edu/web/2020/honesty/" rel="nofollow">**Academic Honesty**.
+It is important to address the topic of <a href="https://cs50.harvard.edu/web/2020/honesty/" rel="nofollow">**Academic Honesty**.</a>
 
 These solutions are intended to be shared within the community as a point of reference, guidance, and discussions, explicitly emphasizing that they should not be used for cheating purposes.
 
