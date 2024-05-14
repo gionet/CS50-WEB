@@ -87,6 +87,6 @@ In the root directory, run command
 > docker-compose up -d --build
 
 Run without Docker, *using pip*
-> python -m pip install requirements.txt
+> python -m pip install requirements.txt  
 > python manage.py runserver
 
