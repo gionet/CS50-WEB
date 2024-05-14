@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'progression/styles.css' %}">
+        <script src="{% static 'progression/progression.js' %}"></script>
+        
+        <title>{% block title %}TimeStamp{% endblock %}</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'progression/img/favicon.ico' %}">
+    </head>
+    
+    <body>
+        <div class="container">
+            {% if user.is_authenticated %}
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <a class="navbar-brand" href="{% url 'index' %}">Progression Bar</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link text-white" href="{% url 'logout' %}">Logout</a>
+                    </div>
+                </div>
+            </nav>
+            
+            {% else %}
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <a class="navbar-brand" href="{% url 'index' %}">Progression Bar</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link text-white" href="{% url 'register' %}">Sign Up</a>
+                    <a class="nav-item nav-link text-white" href="{% url 'login' %}">Login</a>
+                    </div>
+                </div>
+            </nav>
+
+            {% endif %}
+
+            {% block body %}
+            {% endblock %}
+        </div>
+    </body>
+</html>

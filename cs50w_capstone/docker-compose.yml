@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+    db:
+        image: postgres
+        environment:
+            POSTGRES_PASSWORD: password
+
+    web:
+        build: .
+        volumes:
+            - .:/usr/src/app
+        ports:
+            - "8000:8000"
+        depends_on:
+            - db
+        environment:
+            - PYTHONUNBUFFERED=1
+            - DB_HOST=db
